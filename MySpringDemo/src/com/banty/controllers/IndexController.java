@@ -10,6 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.Map;
 
 @Controller
+@RequestMapping("/index")
 public class IndexController {
     @GetMapping("/")
     public String index(Model m) {
